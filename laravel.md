@@ -5,7 +5,7 @@ description: View the slide with "Slide Mode".
 ---
 
 # laravel 筆記
-[TOC]
+<!-- [TOC] -->
 ## 重新建立Git上 laravel project
 **1. 第一步 clone 專案**
 ```
@@ -16,11 +16,13 @@ git clone https://github.com/username/someproject ProjectName
 composer install
 ```
 註：須事先安裝安裝 [composer](https://getcomposer.org/)
+
 **3. 還原 packages.json**
 ```
 npm install
 ```
 註：須事先安裝 npm
+
 **4. 複製 .env.example .env**
 ```
 cp .env.example .env
